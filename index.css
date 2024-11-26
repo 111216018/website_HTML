@@ -1,15 +1,42 @@
 @charset "utf-8";
 /* CSS Document */
-.header{
+
+body{
+	align-items: center;
+}
+
+header, .text_title, .text_image{
 	color:#EFBC24;
 	display: flex;
 	justify-content: center;
 	text-align:center;
 }
 
-.header,.text_image{
-	color:#EFBC24;
+main{
 	display: flex;
+	align-items: center;
 	justify-content: center;
-	text-align:center;
+	gap: 20px;
+}
+
+.video{
+	text-align: center;
+}
+
+main{
+	position: relative;
+	top: 125px;
+}
+
+main div{
+	flex-wrap: wrap;
+	flex-direction: row;
+}
+
+.content{
+	text-align: center;
+}
+footer{
+	position: relative;
+	top: 300px;
 }
